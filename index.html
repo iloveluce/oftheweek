@@ -16,8 +16,12 @@ margin-top: 20%;
 <script>
 var d = new Date();
 var n = d.getTime();
-var m = new Date(2014, 05, 11, 4);
-var myCountdown1 = new Countdown({time: m.getTime()- d.getTime(),
+var m = new Date(2014, 4, 11, 16);
+console.log(m)
+console.log(d)
+var total = (m.getTime()- d.getTime()) /1000
+console.log(total)
+var myCountdown1 = new Countdown({time: total,
 						 width	  	: 500,      // Defaults to 200 x 30 pixels, you can specify a custom size here
                          height	 	: 100,   });
 </script>
