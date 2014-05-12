@@ -1,4 +1,4 @@
- <head>
+  <head>
  	<style>
  	#Stage_jbeeb_3{
  		left:16% !important;
@@ -7,13 +7,25 @@
  
  <link rel="stylesheet" type="text/css" href="bootstrap.css">
  </head>
- <body style ='background-image: url("https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/7516_1242239939061_3787553_n.jpg");background-repeat: no-repeat;background-size: cover;'>
+ <body style ='background-image: url("https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/941241_10152069338253986_2110408136_n.jpg");background-repeat: no-repeat;background-size: cover;'>
 <script src="countdown.js"></script>
 
 <h1 style= " text-align: center; font-size: 120;
 margin-top: 20%; text-shadow: 4px 4px steelblue;
-">Sara Rosenburg's Wall</h1> <body> 
-<div style = "margin-left: 25%; margin-top: 50px;">
-<iframe src="//player.vimeo.com/video/94867229" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style = ""></iframe> <p><a href="http://vimeo.com/94867229">Rosenburger</a> from <a href="http://vimeo.com/user27931171">Sara Rosenburger</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+">Jack Kleinman's Wall</h1> <body> 
+<h2 style =" text-align: center;  text-shadow: 1px 1px steelblue;
+">The World Will Never be the Same</h2>
+<script>
+var d = new Date();
+var n = d.getTime();
+var m = new Date(2014, 4, 15, 16);
+console.log(m)
+console.log(d)
+var total = (m.getTime()- d.getTime()) /1000
+console.log(total)
+var myCountdown1 = new Countdown({time: total,
+						 width	  	: 800,      // Defaults to 200 x 30 pixels, you can specify a custom size here
+                         height	 	: 150,   });
+</script>
 </body>
 <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/7516_1242239939061_3787553_n.jpg" alt="some_text" style = " visibility:hidden;">
